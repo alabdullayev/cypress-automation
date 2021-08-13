@@ -7,12 +7,14 @@ Run below command on terminal to run with Cypress automation:
   
   node_modules/.bin/cypress open 
   
-or if you want to run headless then paste below command on terminal
+or if you want to run headless in chrome then paste below command on terminal
 
-node_modules/.bin/cypress run  
+node_modules/.bin/cypress run -browser chrome
 
-This is for headed browser
-./node_modules/.bin/cypress run –headed 
+
+Note: by default Cypress runs on headless chrome electron 
+
+
 
 
   
