@@ -1,5 +1,10 @@
 {
 
     "defaultCommandTimeout":8000,
-    "pageLoadTimeout": 60000
+    "pageLoadTimeout": 60000,
+    "requestTimeout": 10000,
+    
+        "waitForAnimations": false,
+        "animationDistanceThreshold": 50
+      
 }
